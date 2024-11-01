@@ -1,0 +1,41 @@
+@use 'importer' as module;
+
+// ПОКАЗАТЬ КОНФЛИКТ
+// @import 'variables-test1';
+// @import 'variables-test2';
+
+body {
+    background-color: module.$main__color_1;    
+    // color: $test-color;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto 20px;
+    padding: 1em;
+    // border: 1px solid v.$main__color_2;
+    border: {
+        width: 2px;
+        style: solid;
+        color: module.$main__color_2;
+        radius: 10px;
+    }
+
+    .cards-wrapper {
+        width: 100%;
+        height: 100%;
+
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // flex-wrap: wrap;
+        @include module.d-flex(center, center, wrap);
+    }
+}
+
+// example usage
+.blocks {
+    @include module.d-flex(space-between, center, wrap);
+   
+    @include module.order(150px, 150px, ".name", ".address", ".zip");
+}
