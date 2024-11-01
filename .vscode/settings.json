@@ -1,0 +1,19 @@
+{
+  "editor.fontSize": 14,
+  "window.zoomLevel": 0,
+  "liveSassCompile.settings.forceBaseDirectory": "/",
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/dist/css",
+      "savePathReplacementPairs": null
+    },
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/dist/css",
+      "savePathReplacementPairs": null
+    }
+  ],
+}

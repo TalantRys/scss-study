@@ -13,7 +13,7 @@ body {
 
 .container {
   max-width: 1400px;
-  margin: 0 auto 20px;
+  margin: 0 auto;
   padding: 1em;
   border-width: 2px;
   border-style: solid;
@@ -29,27 +29,16 @@ body {
   flex-wrap: wrap;
 }
 
-.blocks {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.blocks .name {
+input.address {
   display: block;
   width: 150px;
-  height: 150px;
+  height: "input.name";
   border: 1px solid #000;
 }
-.blocks .address {
+
+input.zip {
   display: block;
   width: 150px;
-  height: 150px;
+  height: "input.name";
   border: 1px solid #000;
-}
-.blocks .zip {
-  display: block;
-  width: 150px;
-  height: 150px;
-  border: 1px solid #000;
-}/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index-with-import.css.map */
