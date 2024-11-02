@@ -1,5 +1,9 @@
 @use 'importer' as module;
 
+@use 'sass:color';
+@use 'sass:math';
+@use 'sass:string';
+
 // ПОКАЗАТЬ КОНФЛИКТ
 // @import 'variables-test1';
 // @import 'variables-test2';
@@ -35,6 +39,8 @@ body {
 
 // example usage
 .blocks {
+    // @extend .container;
+
     @include module.d-flex(space-between, center, wrap);
    
     @include module.order(150px, 150px, ".name", ".address", ".zip");

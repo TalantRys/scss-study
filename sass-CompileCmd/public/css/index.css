@@ -9,6 +9,7 @@ body {
 
 body {
   background-color: #EFEAD8;
+  font-size: 20px;
 }
 
 .container {
@@ -52,4 +53,6 @@ body {
   width: 150px;
   height: 150px;
   border: 1px solid #000;
-}/*# sourceMappingURL=index.css.map */
+}
+
+/*# sourceMappingURL=index.css.map */

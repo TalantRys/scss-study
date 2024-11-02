@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../../styles/card.scss","../../styles/_variables.scss"],"names":[],"mappings":"AAGA;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;;AAEA;EACI,OCZI;EDaJ;;AAIR;EACI;EACA;;AAGJ;EACI;EACA;;AAGJ;EACI,kBC7BQ;ED8BR;;AAGJ;EACI;IACI;;EAEA;IACI,OClCA","file":"card.css"}
