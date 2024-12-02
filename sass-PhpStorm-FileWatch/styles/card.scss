@@ -6,6 +6,7 @@
     border-radius: 5px;
     padding: 1.5em;
     width: 100%;
+    @include order(100%, 100%, '.card__title', '.card__description', '.card__caption');
 
     &__title {
         margin: .3em;
