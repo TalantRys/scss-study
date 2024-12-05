@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5b4b2b0c77dcf6df835792cfb2d36d38",
+    "packages": [
+        {
+            "name": "beeralex/compose",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/BkycHblu-6oPwuK/compose.git",
+                "reference": "4a53f510ed271ee0f18929c28a735b9212c0f6fa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/BkycHblu-6oPwuK/compose/zipball/4a53f510ed271ee0f18929c28a735b9212c0f6fa",
+                "reference": "4a53f510ed271ee0f18929c28a735b9212c0f6fa",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "bin": [
+                "src/bin/compose"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexandr Belotsitsko",
+                    "email": "sanyabelyy020@gmail.com"
+                }
+            ],
+            "description": "docker-compose for bitrix",
+            "keywords": [
+                "bitrix",
+                "docker",
+                "docker-compose"
+            ],
+            "support": {
+                "issues": "https://github.com/BkycHblu-6oPwuK/compose/issues",
+                "source": "https://github.com/BkycHblu-6oPwuK/compose/tree/main"
+            },
+            "time": "2024-11-22T06:31:47+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "beeralex/compose": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

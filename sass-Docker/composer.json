@@ -1,0 +1,13 @@
+{
+    "name": "talant/sass-docker",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Talant.Ryskulov",
+            "email": "talant.ryskulov@itb-dev.ru"
+        }
+    ],
+    "require": {
+        "beeralex/compose": "dev-main"
+    }
+}
