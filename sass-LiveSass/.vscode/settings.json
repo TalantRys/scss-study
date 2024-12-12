@@ -1,6 +1,6 @@
 {
-  "editor.fontSize": 14,
-  "window.zoomLevel": 0,
+  // "editor.fontSize": 14,
+  // "window.zoomLevel": 0,
   "liveSassCompile.settings.forceBaseDirectory": "/",
   "liveSassCompile.settings.formats": [
     {
@@ -15,5 +15,14 @@
       "savePath": "/dist/css",
       "savePathReplacementPairs": null
     }
+  ],
+  "liveSassCompile.settings.autoprefix": [        
+        "last 3 versions",
+        "not dead",
+        "Chrome 103",
+        "Firefox 102",
+        "Safari 15",
+        "Edge 100",
+        "IE 11"
   ],
 }

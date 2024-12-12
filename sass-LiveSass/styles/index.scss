@@ -39,9 +39,25 @@ body {
 
 // example usage
 .blocks {
-    // @extend .container;
+    @extend .container;
 
     @include module.d-flex(space-between, center, wrap);
    
     @include module.order(150px, 150px, ".name", ".address", ".zip");
+}
+
+
+
+%test{
+    content: 'test';
+}
+
+.block1{
+    @extend %test;
+    color: red;
+}
+
+.block2{
+    @extend %test;
+    color: blue;
 }
